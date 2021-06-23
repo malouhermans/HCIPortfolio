@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HCI Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet"> 
+    <Link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <!-- begin eerste rij -->
+<div class="row no-gutters">
+    <div class="col-0 col-md-0 col-lg-2 filling"></div>
+     <!-- Navigatie -->
+      <div class="col-12 col-md-12 col-lg-8">
+       <nav class="navbar navbar-default fixed-top navbar-expand-lg"> 
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav">
+           <li class="nav-item">
+             <a class="nav-link" href="index.html">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="arvr.html">AR/VR</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="wearables.html">Wearables</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="creatures.html">Artificial Creatures</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="playfullinteractions.html">Playful Interfaces</a>
+           </li>
+              <!-- Dropdown menu's -->
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="workshops.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Workshops</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="unrealengine.html">Unreal Engine</a>
+                    <a class="dropdown-item" href="aframe.html">AFrame</a>
+                    <a class="dropdown-item" href="arduino.html">Arduino</a>
+                    <a class="dropdown-item" href="cv.html">Computer Vision</a>
+                </div>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Gastcolleges</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="assignment.html">Assignment</a>
+                    <a class="dropdown-item" href="assignmentreflect.html">Reflect</a>
+                </div>
+              </li>
+              
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Labweken</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="product.html">Product</a>
+                    <a class="dropdown-item" href="proces.html">Proces</a>
+                    <a class="dropdown-item" href="productreflect.html">Reflect</a>
+                </div>
+            </li>
+         </ul>
+       </div>
+       </nav>
+       </div>
+       <div class="col-0 col-md-0 col-lg-2 filling"></div> 
+     </div>
+       <!-- Einde Navigatie -->
+     </div>
+   </div>
+
+   <!-- begin tweede rij -->
+<div class="jumbotron jumbotron-fluid jumbotron-arvr">
+<div class="container text-center">
+  <h2 class="display-4 text-center">Arduino</h2>
+  <div class="row no-gutters mb-2">
+    <div class="col-5"></div>
+    <div class="col-2 text-center">
+      <img src="fotos/Ellipse.png" alt="ellipse">
+      <img src="fotos/Ellipse.png" alt="ellipse">
+      <img src="fotos/Ellipse.png" alt="ellipse">
+    </div>
+    <div class="col-5"></div>
+  </div>
+  <p2 id="subtext" class="lead text-center">Om kennis te maken met arduino moesten er 14 opdrachten gemaakt worden. Een aantal van deze opdrachten moesten opgenomen worden in het portfolio. In de onderstaande videos zullen de codes en de werkende arduino in kaart gebracht worden. In de onderstaande tekst zal uigelegd worden hoe elke opdracht werkt.</p2>
+</div>
+</div>
+
+ <!-- Begin content -->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 3b</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">
+        Voor opdracht 3b moesten er twee LED lampjes om en om gaan knipperen. Op het breadboard heb ik een constructie gebouwd met een aantal draadjes, twee weerstandjes en twee LED lampjes. Het gele LED lampje zit verbonden aan pin 12 op de arduino. Het groene LED lampje zit verbonden aan pin 13 op de arduino. Op het breadboard worden beide LED lampjes met een stroomkring aan elkaar verbonden.
+        <br></br>
+        Doordat de LED lampjes gekoppelt zijn aan pin 12 en 13, kunnen de LED lampjes binnen de code een actie meekrijgen. Het gele LED lampje (pin 12) staat in eerste instantie uit. Dit staat in de code aangegeven als;
+        <br></br>
+       <b>digitalWrite(12, LOW);</b>
+        <br></br>
+        Het woord low geeft aan dat het gele LEDlampje uit zal zijn. Voor het groene LED lampje (pin 13) word een een waarde van high meegegeven. Dit geeft aan dat het groene LED lampje aan moet staan. Binnen de code is dit aangegeven als:
+        <br></br>
+        <b>digitalWrite(13, HIGH);</b>
+        <br></br>
+        Na deze twee acties word er een delay van 1000ms meegegeven. Dit zorgt ervoor dat er een korte pauze tussen de volgende ahandelingen zal zitten. Na de delay zal er precies het tegen overgestelde plaats gaan vinden. Het gele LED lampje (pin 12) zal eerst aangaan en daarna zal het groene LED lampje (pin 13) aangaan.
+        <br></br>
+        Door de bovenstaande code binnen een loop te zetten, zal de code continu worden uitgevoerd. Hierdoor blijven beide LED lampjes om en om knipperen.
+       
+        </p>
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 3b --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht3b.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+ <!-- nieuwe rij voor opdracht 4c-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 4c</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 4c is het de bedoeling dat het gele LED lampje Langzaam uit gaat en tegelijker tijd moet het groene LED lampje langzaam aan gaan. 
+        Op de arduino en het breadboard is bijna niks veranderd ten opzichten van opdracht 3. Alleen de pins van de LED lampjes zijn veranderd. Het gele LED lampje is aangesloten op pin 9 en het groene LED lampje is aangesloten op pin 10. 
+        Binnen een loop word aangegeven dat de lampjes van een helderheid 0 langzaam naar een helderheid van 256 moet gaan. Dit zorgt ervoor dat het LED lampje langzaam aan gaat. In de code is dit geschreven als;
+        <br></br>
+        <b>for (int brightness = 0; brightness < 256; brightness++)</b>
+        <br></br>
+        In de for loop maak geef ik aan dat het groene LED lampje start met een helderheid van 0.
+        Dit doe ik door de volgende code mee te geven;
+        <br></br>
+        <b>analogWrite(greenLedPin, brightness);</b>
+        <br></br>
+        Ook geef in binnen dezelfde for loop aan dat het gele LED lampje precies het tegenovergestelde moet gaan doen, door te starten met een helderheid van 255.
+        Dit doe ik door de volgende code mee te geven;
+        <br></br>
+        <b>analogWrite(yellowLedPin, 255 - brightness);</b>
+        <br></br>
+        Door deze code binnen een for loop te gebruiken, zullen beide LED lampjes in tegengestelde richting langzaam aan en uit gaan.
+        </p>
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 4c --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht4c.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 6c-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 6c</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 6c moest er hetzelfde effect hebben als opdracht 4. De LED lampjes moeten om en om langzaam aan en uit gaan, wanneer er aan de POT-meter gedraaid word. Hiervoor moet de stroomkring op het breadboard worden aangepast. Er moeten extra draadjes worden aangesloten om de POT-meter in de stroomkring te krijgen.
+        <br></br>
+        Binnen de code word bijna hetzelfde toegepast als in opdrach 4c. Er word alleen rekening gehouden met de POT-meter. De POT-meter is aangesloten op pin A0. Het is echter belangrijk om rekening te houden met de POT-meter, daarom is er overal in de code een aanpassing gemaakt. Er word gewerkt met een sensorValue. Deze sensorValue declareert de waardes van de POT-meter en de waardes van de LED lampjes. Vandaar dat de nieuwe code er zo uit ziet;
+        <br></br>
+        <b>void loop(){
+          <br></br>
+          sensorValue = analogRead(sensorPin);
+          <br></br>
+          sensorValue = map(sensorValue, 0, 1023, 0, 255);
+          <br></br>
+          &emsp;analogWrite(greenLedPin, sensorValue);
+          <br></br>
+          &emsp;analogWrite(yellowLedPin, 255 - sensorValue);
+          <br></br>
+          &emsp;Serial.pintln(sensorValue);
+          <br></br>
+          &emsp;delay(20);
+          <br></br>
+        }</b>
+         <br></br>
+         Binnen deze code is de sensorValue erg belanrijk, deze zorgt ervoor dat de helderheid van de LED lampjes gekoppeld worden aan de waardes van de POT-meter. Hierdoor kunnen de LED lampjes tegelijk aan en uit gaan, wanneer er aan de POT-meter gedraait word.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 6c --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht6c.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 7a-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 7a</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 7a moest er door middel van een LED matrix een vrolijke en verdrietige smiley getoond worden. Deze twee smileys worden omstebeurt vertoont. Uiteindelijk gaat de LED matrix dus om en om twee verschillende smileys vertonen. Door middel van het breadboard en wat raadjes kunnen de arduino en de LED matrix op elkaar worden aangesloten.
+        <br></br>
+        De code werd overgenomen vanuit de opdracht. Binnen de code word er een nieuw object aangemaakt, om de LED matrix aan te kunnen sturen. Er worden een aantal belangrijke events aan het nieuwe object meegegeven rondom de helderheid. Dit is te zien in de void setup.
+        <br></br>
+        Binnen de loop word het nieuwe object, LedControl, gedeclareert. Per rij moet aangegeven worden welk lampje aan staat en welke niet. Dit word aangegeven door nullen en enen. Door de enen op een beoaalde plek binnen de code te zetten, kan de vrolijke smiley getoont worden. Tussen de code voor beide smileys, moet een delay staan. Deze delay is nodig om beide smileys na elkaar te vertonen.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 7a --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht7a.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 8-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 8</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 8 moesten er twee LED lampjes gaan branden, wanneer de sensor bedekt word. De lED lampjes moet uit gaan, wanneer er geen licht meer op de sensor valt. Op de arduino is een stroomkring gebouwd met twee LED lampjes, een geel LED lampje en een rood LED lampje. Deze zitten met een aantal draadjes en weerstandjes verbonden aan een lichtsensor. Het gele LED lampje is aangesloten op pin 9 en het rode LED lampje is aangesloten op pin 10. De lichtsensor is aangesloten op pin 0A.
+        <br></br>
+        De void setup is niet verandert sinds opdracht 6c. De void loop werkt in principe hetzelfde als 6c, maar de waardes zijn anders. Opdracht 8 vraagt of de seriële monitor geopent kan worden. Zodra deze opent geeft het verschillende waardes. De waardes worden bepaald door de hoeveelheid licht dat de lichtsensor detecteert. De hoogste en laagste waarde moeten worden onthouden.
+        <br></br>
+        <b>Hoogste waarde: 310</b>
+        <br></br>
+        <b>Laagste waarde: 115</b>
+        <br></br>
+        Deze waardes worden ingevuld binnen de code. in de map() functie worden de hoogste en laagste waarde ingevuld. Ook word rekening gehouden met de helderheid van de LED lampjes. De waardes 0 (LED lampjes uit) en 255 (LED lampje volledig aan) worden binnen dezelfde map() functie geplaatst. In de constain functie worden de waarde van de LED lampjes nog een keer meegegeven. Door deze waardes te gebruiken binnen de functies, zullen de LED lampjes gaan reageren op het licht.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 8 --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht8.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 9c-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 9c</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 9c moest er een sirene gemaakt worden. Dit moest aan de hand van een piezo speaker. Door middel van een weerstandje en wat draadjes is er een stroomkring gemaakt met de piezo speaker. De piezo speaker is aangesloten op pin 8. 
+        <br></br>
+        In de void loop zijn twee for loops geplaatst. De eerste for loop zorgt ervoor dat het geluid oploopt en dus steeds hoger van toon word. De tweede for loop zorgt ervoor dat het geluid daalt en dus steeds lager van toon word. door hier een delay achter te plaatsen, volgen deze geluiden vlak op elkaar, waardoor het als een sirene begint te klinken.
+       
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 9c --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht9c.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 11c-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 11c</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 11c moest het LED lampje aangaan, wanneer er een object in de buurt van de ultrasonic sensor kwam. Via een aantal draadjes word het gele LED lampje (pin 8) gekoppelt aan de ultrasonic sensor (pin 7 en 8). De code in de video moest gekopieerd worden uit de opdracht. Pin 7 geeft de trigger aan die de sensor actief maakt. Pin 8 geeft de echo aan, dit is de reactie op de trigger.
+        <br></br>
+        De code binnen de void loop zorgt ervoor dat de trigger gedecteert word. De trigger binnen die video is mijn hand die in de buurt van de ultrasonic sensor komt.
+        <br></br>
+        Binnen het tweede deel van de void loop, word er aangegeven wat er meot gebeuren wanneer er een trigger word gedetecteerd. Er word aangegeven dat het LED lampje aan moet gaan, wanneer er een object binnen een bepaalde range komt. Ook moet het LED lampje uit gaan, wanneer de trigger verdwijnt. Dit zie je gebeuren, wanneer ik mijn hand weer weg haal.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 11c --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht11c.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 12d-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 12d</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 12d moest er met arduino en processing gewerkt worden. Er word gebruik gemaakt van de POT-meter. Het is de bedoeling dat de POT-meter gekoppelt word aan de seriële monitor. Door code te gebruiken binnen processing, kan er een schermpje ontstaan waarbinnen een zwarte stip te zien is. Deze stip word groter of kleiner, wanneer er aan de POT-meter gedraaid word. De strip geeft de waardes binnen de seriële monitor aan, maar dan visueler. 
+        <br></br>
+        De codes voor zowel arduino als processing moesten vanuit de opdracht gekopieerd worden. De processing code en arduino code moesten eerst werken en runnen, voor de seriële monitor geopend mocht worden. Het zou anders niet werken. Binnen de processing code moest de seriële poort worden aangepast. Je kon verschillende getallen gebruiken, bij 3 begon mijn code te werken. Er kon aan de POT-meter gedraaid worden en er ontstond een zwarte stip die groter of kleiner werd.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 12d --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht12d.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 13b-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 13b</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 13b was het de bedoeling dat er een rood LED lampje stopte met branden, wanneer er op een micro button geklikt word. Hiervoor moesten er een aantal draadjes en weestandjes verbonden worden met een rood LED lampje en de micro button. Het rode LED lampje is aangesloten op pin 13. De micro button is aangesloten op pin 2.
+        <br></br>
+        In de void setup word aangegeven dat de pins bestaan en op het een input of een output is. De input is de micro button en de output is het LED lampje dat uit gaat, wanneer de micro button aangeklikt word.
+        <br></br>
+        In de void loop word aangegeven dat het lampje uit moet gaan, wanneer er op de micro button geklikt word. Er word een if/else gebruikt om dit te declareren. 
+        <br></br>
+        <b>Als,
+        <br></br>
+        De button ingedrukt word (HIGH), laat dan het lampje uit gaan (LOW).
+        <br></br>
+        Anders,
+        <br></br>
+        Laat het lampje aan staan (HIGH).
+        </b>
+        <br></br>
+        Door deze code mee te geven weet de arduino, wanneer het lampje wel en niet uitgaat. Het kan heel simpel worden omgedraaid, door de (HIGH) en (LOW) waardes binnen de codes exact om te draaien. Het lampje zal dan aan gaan, wanneer er op de knop gedrukt word.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 13b --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht13b.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+<!-- nieuwe rij voor opdracht 14b-->
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div>
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
+      <div class="container">
+        <h1 class="display-6 text-center">Opdracht 14b</h1>
+        <div class="row no-gutters">
+          <div class="col-5"></div>
+          <div class="col-2 text-center">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+            <img src="fotos/Ellipse.png" alt="ellipse">
+          </div>
+          <div class="col-5"></div>
+        </div>
+        <div class="row no-gutters mb-2"></div>
+        <p class="lead text-justify">Voor opdracht 14b moest er gewerkt worden met de servometer. De servometer is met een aantal draadjes aangesloten aan de arduino en breadboard. Binnen de eerste paar opdrachten van opdracht 14 moest de servometer werkend gemaakt worden. Voor opdrach 14b, is het de bedoeling dat er zelf met de code word gespeeld en er dus zelf een rytmisch geluid of iets uit komt.
+        <br></br>
+        Ik heb de gekopieerde code van opdracht 14a uitgecomment en vervolgens zelf code beschreven. Ik wou van de for loops af om meer vrijheid te krijgen binnen het ritme. Ik heb het een en ander uitgeprobeerd om de code te snappen. Uiteindelijk heb ik besloten om de waardes naar 0, 80, 100 en 20 te veranderen. Er stond nog een delay van 1000ms achter. Ik besloot deze delays korter te maken door ze allemaal 10ms mee te geven.
+        <br></br>
+        Toen ik dit deed begon de servometer enorm hard te trillen. <a href="https://ezzol.github.io/HCI-Portfolio/index.html" target="_blank" id="hier">Esther van der Molen</a> en ik hebben hier zo'n tien minuten om gelachen, omdat de servometer op een vibrator begon te lijken. Helaas is er in de beweging niet goed te zien hoe snel de servometer trilt, maar het geluid zegt genoeg. Ik heb besloten om deze servometer-vibrator als eigen ritme voor deze opdracht te gebruiken.
+        <br></br>
+        Er is per ongeluk een vibrator gemaakt van de servometer.
+        </div>
+    </div>
+  </div>
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Nieuwe rij video van arduino opdracht 14b --> 
+<div class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+  <div class="col-12 col-md-12 col-lg-8">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="videos/opdracht14b.mp4"></iframe>
+    </div>
+
+  </div>  
+  <div class="col-0 col-md-0 col-lg-2"></div> 
+</div>
+
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+<!-- Some extra white space -->
+<div class="row no-gutters mb-5"></div>
+
+
+
+<!-- begin laatste rij -->
+<div id="foot" class="row no-gutters">
+  <div class="col-0 col-md-0 col-lg-2 bg-dark"></div>
+  <div class="col-12 col-md-12 col-lg-8 bg-dark">
+    <div class="row no-gutters">
+      <div class="col-3"></div>
+      <div class="col-3"><p class="p1a">©2021 - Malou Hermans</p1></div>
+      <div class="col-5"><p class="p1a">Afbeeldingen komen van Unsplash</p1></div>
+      <div class="col-1"></div>
+    </div> 
+  </div>
+  <div class="col-0 col-md-0 col-lg-2 bg-dark"></div>
+</div>
+
+
+<!-- scripts in gebruik voor het menu en anadere visuele elementen.  -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>

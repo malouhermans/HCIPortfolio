@@ -1,0 +1,186 @@
+body {
+	/* background-color: blue; */
+	font-family: "Poppins", sans-serif;
+  }
+
+h1 {
+  color: black;
+}
+
+h2 {
+	color: white;
+}
+
+p{
+  font-weight: 200;
+}
+
+
+
+#hier{
+  color: #6CB480;
+  font-weight: 500;
+}
+
+#bronnen {
+  font-weight: 500;
+}
+
+/* Color of navbar */
+.navbar-default {
+  background-color: #F8F7F7;
+}
+
+.filling {
+  background-color: #F8F7F7;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* textcolor */
+.navbar-default .navbar-nav > li > a {
+  color: #262626;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+/* on hover color */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > .dropdown-menu > .dropdown-item:hover {
+    color: #6CB480;
+    font-weight: 500;
+}
+
+/* Set active item green */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #6CB480;
+    font-weight: 500;
+}
+
+
+/* Centreren navbar */
+.navbar-nav {
+  float:none;
+  margin:0 auto;
+  display: block;
+  text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+.navbar-nav > li {
+  display: inline-block;
+  float:none;
+} 
+
+.navbar-nav > li{
+  padding-left:1em;
+  padding-right:1em;
+}
+}
+
+
+/* textcolors */
+.p1a {
+  color: white;
+  font-weight: 200;
+  margin-top: 1em;
+}
+
+#title{
+  font-weight: 500;
+}
+
+#subtitle{
+  font-weight: 200;
+}
+
+#subtext {
+  
+  color: white;
+}
+
+#jumbrotron1 {
+    background-image: url("fotos/moon.jpg");
+    background-size: cover;
+    background-position: center; 
+    min-height: 42em;
+    padding: 5em inherit;
+}
+
+.card-title {
+  visibility: hidden;
+}
+
+.card:hover .card-title {
+  visibility: visible;
+}
+
+.card {
+  border:none;
+}
+
+#headertext {
+  text-align: center;
+}
+
+#jumbotron-home {
+  background-color: white;
+}
+
+
+
+#h1a {
+   top: 30%;
+   bottom: auto;
+}
+
+/* Afbeeldingen op niet index paginas */
+.jumbotron-arvr {
+  background-image: url("fotos/vr_header.jpeg");
+  background-size: cover;
+  background-position: center; 
+}
+.jumbotron-creatures {
+  background-image: url("fotos/robot_header.jpeg");
+  background-size: cover;
+  background-position:center; }
+.jumbotron-gast {
+  background-color: black; }
+.jumbotron-lab {
+  background-color: black; }
+.jumbotron-playfull {
+  background-image: url("fotos/womenbanner.jpeg");
+  background-size: cover;
+  background-position:center; }
+.jumbotron-wearables {
+  background-image: url("fotos/wearable_header.jpeg");
+  background-size: cover;
+  background-position:center; }
+.jumbotron-work {
+  background-color: black; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
